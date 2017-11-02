@@ -3,7 +3,7 @@ import time
 
 from selenium import webdriver
 
-from st2actions.runners.pythonrunner import Action
+from st2common.runners.base_action import Action
 
 __all__ = [
     'CaptureScreenshotAction'
