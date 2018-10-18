@@ -1,6 +1,6 @@
 ---
 name: capture_screenshot
-runner_type: run-python
+runner_type: python-script
 description: Capture screenshot of a website and save it on disk.
 enabled: true
 entry_point: capture_screenshot.py
